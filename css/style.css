@@ -1,0 +1,67 @@
+
+/* General page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+    color: #333;
+}
+
+/* Main content */
+main {
+    background-color: #f5f6fa;
+}
+
+/* Main headings */
+h1, h2 {
+    color: #212529;
+    font-weight: bold;
+}
+
+/* Sidebar navigation */
+nav .nav-link {
+    padding: 12px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+nav .nav-link:hover {
+    background-color: #495057;
+}
+
+/* Gallery images */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Gallery cards */
+.card {
+    border: none;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+    padding-bottom: 20px;
+}
+
+/* Mobile styling */
+@media (max-width: 767px) {
+    main {
+        padding: 20px !important;
+    }
+
+    nav {
+        min-height: auto !important;
+    }
+
+    .card-img-top {
+        height: 180px;
+    }
+}
